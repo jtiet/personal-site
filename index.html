@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jason Tiet — Fullstack Software Engineer</title>
+  <meta name="description" content="Portfolio of Jason Tiet, a fullstack software engineer in San Francisco building performant, scalable web applications." />
+  <meta property="og:title" content="Jason Tiet — Fullstack Software Engineer" />
+  <meta property="og:description" content="Portfolio of Jason Tiet, a fullstack software engineer in San Francisco building performant, scalable web applications." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#top" class="nav-logo" aria-label="Home">jt<span class="accent">.</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#work">Featured Work</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero container" id="top">
+      <p class="hero-eyebrow reveal">Hi, my name is</p>
+      <h1 class="hero-title reveal">Jason Tiet<span class="accent">.</span></h1>
+      <h2 class="hero-subtitle reveal">I build things for the web — end to end.</h2>
+      <p class="hero-blurb reveal">
+        I'm a fullstack software engineer based in San Francisco with 6+
+        years of experience shipping web applications, developer tools, and
+        communication platforms — from pixel-perfect frontends to resilient
+        backend services and the observability that keeps them healthy.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#work" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-terminal reveal" aria-hidden="true">
+        <div class="terminal-bar">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="terminal-title">jason@sf ~ zsh</span>
+        </div>
+        <pre class="terminal-body"><code><span class="t-prompt">$</span> whoami
+<span class="t-out">fullstack engineer · problem solver · lifelong learner</span>
+<span class="t-prompt">$</span> jason --stack
+<span class="t-out">["TypeScript", "React", "Vue", "Express.js", "AWS"]</span>
+<span class="t-prompt">$</span> jason --status
+<span class="t-out"><span class="t-green">●</span> open to opportunities</span><span class="t-cursor">▊</span></code></pre>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section container" id="about">
+      <h2 class="section-title reveal"><span class="section-num">01.</span> About Me</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I spent 6+ years as a software engineer at Ericsson (previously
+            Vonage and TokBox) working across the entire stack — building
+            customer-facing dashboards, internal tooling, and API gateway
+            observability for a global communications platform.
+          </p>
+          <p>
+            I like owning problems end to end: I've revamped payment flows
+            that safeguard $400k in annual revenue, automated account
+            provisioning workflows that cut manual support work by 90%, and
+            built diagnostic tools that halved support resolution times. On
+            the infrastructure side, I care about test coverage, CI/CD, and
+            metrics — because shipping fast only matters if it stays up.
+          </p>
+          <p>
+            I started my career in embedded security and developer support,
+            which taught me to read unfamiliar code quickly, communicate
+            clearly with customers and teammates, and sweat the details that
+            make software trustworthy. I studied Cognitive Science at UC
+            Berkeley, which still shapes how I think about the humans on the
+            other side of every interface.
+          </p>
+        </div>
+        <div class="about-facts reveal">
+          <div class="fact-card">
+            <span class="fact-value">6+</span>
+            <span class="fact-label">Years of experience</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-value">3</span>
+            <span class="fact-label">Companies, from startup to enterprise</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-value">∞</span>
+            <span class="fact-label">Curiosity</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section container" id="skills">
+      <h2 class="section-title reveal"><span class="section-num">02.</span> Skills</h2>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8m-4-3v3"/></svg>
+          </div>
+          <h3>Frontend</h3>
+          <p>Responsive, accessible interfaces for dashboards and self-service tools.</p>
+          <ul class="tag-list">
+            <li>JavaScript</li><li>TypeScript</li><li>React</li><li>Vue.js</li><li>HTML/CSS</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="8" rx="2"/><rect x="2" y="13" width="20" height="8" rx="2"/><path d="M6 7h.01M6 17h.01"/></svg>
+          </div>
+          <h3>Backend</h3>
+          <p>REST APIs, services, and data layers built to scale and evolve.</p>
+          <ul class="tag-list">
+            <li>Express.js</li><li>Spring Boot</li><li>Python</li><li>Java</li><li>MySQL</li><li>Redis</li><li>ElasticSearch</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19a4.5 4.5 0 1 0-.4-8.98A6 6 0 1 0 6 15.7"/><path d="M12 12v9m-3-3 3 3 3-3"/></svg>
+          </div>
+          <h3>Cloud &amp; DevOps</h3>
+          <p>Cloud infrastructure, containers, pipelines, and monitoring.</p>
+          <ul class="tag-list">
+            <li>AWS</li><li>EC2</li><li>S3</li><li>Docker</li><li>Kubernetes</li><li>CI/CD</li><li>Prometheus</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/></svg>
+          </div>
+          <h3>Quality &amp; Practices</h3>
+          <p>Habits that keep teams fast and codebases healthy.</p>
+          <ul class="tag-list">
+            <li>Jest</li><li>Mocha</li><li>Selenium</li><li>SonarCloud</li><li>GitHub Actions</li><li>Code Review</li><li>Mentorship</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section container" id="experience">
+      <h2 class="section-title reveal"><span class="section-num">03.</span> Experience</h2>
+      <ol class="timeline">
+        <li class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Software Engineer <span class="at">Ericsson (previously Vonage &amp; TokBox)</span></h3>
+              <span class="timeline-date">Apr 2019 — Nov 2025</span>
+            </div>
+            <ul class="timeline-points">
+              <li>Developed a troubleshooting tool with Express.js and Vue.js to diagnose SMS delivery failures, reducing Support resolution times by 50%.</li>
+              <li>Engineered a self-service workflow using Express.js and React to automate account feature provisioning, reducing manual support involvement by 90%.</li>
+              <li>Added critical metrics to the API gateway with Prometheus to monitor health, performance, and traffic anomalies, improving incident response time by 27%.</li>
+              <li>Revamped payment flows in the customer dashboard to ensure billing accuracy and regulatory compliance, safeguarding $400k in annual revenue.</li>
+              <li>Implemented test coverage automation with SonarCloud and GitHub Actions, reducing engineering time spent on deployments by 25%.</li>
+            </ul>
+            <ul class="tag-list">
+              <li>Express.js</li><li>React</li><li>Vue.js</li><li>Prometheus</li><li>GitHub Actions</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Developer Support Engineer <span class="at">TokBox</span></h3>
+              <span class="timeline-date">May 2018 — Apr 2019</span>
+            </div>
+            <ul class="timeline-points">
+              <li>Conducted full-stack code reviews of customer applications built on the OpenTok JavaScript, Android, and iOS SDKs, providing best practices and architecture feedback.</li>
+              <li>Integrated regression test suites and logging across several projects using Selenium and Log4js, reducing CI/CD pipeline execution times by 30%.</li>
+              <li>Hosted training sessions and mentored new hires and customers on platform usage and architecture, cutting onboarding time by 33%.</li>
+            </ul>
+            <ul class="tag-list">
+              <li>WebRTC</li><li>JavaScript</li><li>Selenium</li><li>Android/iOS SDKs</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Customer Solutions Engineer <span class="at">Mocana Corporation</span></h3>
+              <span class="timeline-date">Jun 2014 — Mar 2018</span>
+            </div>
+            <ul class="timeline-points">
+              <li>Built an Android application to aggregate and deliver PKI data to users, cutting resolution time for common security and networking issues by 50%.</li>
+              <li>Led product integration for a flagship client using the Titanium SDK and Mocana's security platform, generating an additional 11% in revenue per year.</li>
+              <li>Improved end-to-end test coverage for cryptographic libraries, ensuring product offerings comply with strict RFC standards.</li>
+            </ul>
+            <ul class="tag-list">
+              <li>Java</li><li>Android</li><li>Security/PKI</li><li>Titanium SDK</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+      <div class="education reveal">
+        <h3 class="education-title">Education</h3>
+        <div class="education-card">
+          <div>
+            <strong>University of California, Berkeley</strong>
+            <p>Bachelor of Arts in Cognitive Science</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED WORK ============ -->
+    <section class="section container" id="work">
+      <h2 class="section-title reveal"><span class="section-num">04.</span> Featured Work</h2>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-folder" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.7-.9L9.2 3.9A2 2 0 0 0 7.5 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"/></svg>
+            </span>
+            <span class="project-metric">−50% resolution time</span>
+          </div>
+          <h3>SMS Delivery Diagnostics</h3>
+          <p>
+            A troubleshooting tool that traces SMS delivery failures across a
+            global carrier network, surfacing the exact failure point so
+            support engineers stop guessing. Cut resolution times in half.
+          </p>
+          <ul class="tag-list">
+            <li>Express.js</li><li>Vue.js</li><li>ElasticSearch</li>
+          </ul>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-folder" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.7-.9L9.2 3.9A2 2 0 0 0 7.5 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"/></svg>
+            </span>
+            <span class="project-metric">−90% manual support</span>
+          </div>
+          <h3>Self-Service Provisioning</h3>
+          <p>
+            A self-service workflow inside the account management interface
+            that lets customers enable account features themselves — no
+            support ticket required. Reduced manual support involvement by 90%.
+          </p>
+          <ul class="tag-list">
+            <li>Express.js</li><li>React</li><li>REST APIs</li>
+          </ul>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-folder" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.7-.9L9.2 3.9A2 2 0 0 0 7.5 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"/></svg>
+            </span>
+            <span class="project-metric">−27% incident response</span>
+          </div>
+          <h3>API Gateway Observability</h3>
+          <p>
+            Instrumented a high-traffic API gateway with Prometheus metrics
+            and alerting on health, performance, and traffic anomalies —
+            catching incidents before customers do.
+          </p>
+          <ul class="tag-list">
+            <li>Prometheus</li><li>Node.js</li><li>Grafana</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section container section-contact" id="contact">
+      <h2 class="section-title reveal"><span class="section-num">05.</span> Get In Touch</h2>
+      <p class="contact-blurb reveal">
+        I'm currently open to new opportunities and interesting projects.
+        Whether you have a question, a proposal, or just want to say hi —
+        my inbox is always open.
+      </p>
+      <a class="btn btn-primary btn-lg reveal" href="mailto:jason.tiet@gmail.com">Say hello</a>
+      <ul class="social-links reveal" aria-label="Social links">
+        <li>
+          <a href="https://github.com/jtiet" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jasontiet/" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20.4 20.4h-3.5v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6a3.7 3.7 0 0 1 3.4-1.9c3.6 0 4.2 2.4 4.2 5.4zM5.3 7.4a2 2 0 1 1 0-4.1 2 2 0 0 1 0 4.1zM7.1 20.4H3.6V9h3.5z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:jason.tiet@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Designed &amp; built by Jason Tiet</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

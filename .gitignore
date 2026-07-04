@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Claude Code local settings
+.claude/
+
+# Resume source — contains personal contact info (phone number).
+# If you want a downloadable resume on the site, export a scrubbed PDF
+# and add it deliberately instead.
+*.docx

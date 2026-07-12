@@ -411,7 +411,7 @@ ul, ol { list-style: none; }
   margin-bottom: 12px;
 }
 .timeline-head h3 { font-size: 1.12rem; }
-.at { color: var(--accent); font-weight: 600; }
+.at { color: var(--accent); font-weight: 600; margin-left: 8px; }
 .timeline-date {
   font-family: var(--font-mono);
   font-size: 0.8rem;

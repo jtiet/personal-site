@@ -499,6 +499,14 @@ ul, ol { list-style: none; }
 }
 
 .project-card h3 { font-size: 1.15rem; margin-bottom: 8px; }
+.project-card h3 a {
+  font-family: var(--font-mono);
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.project-card h3 a:hover,
+.project-card h3 a:focus-visible { color: var(--accent); }
 .project-card > p {
   color: var(--text-muted);
   font-size: 0.92rem;

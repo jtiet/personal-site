@@ -234,54 +234,58 @@
         <article class="project-card reveal">
           <div class="project-top">
             <span class="project-folder" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.7-.9L9.2 3.9A2 2 0 0 0 7.5 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"/></svg>
             </span>
-            <span class="project-metric">TypeScript</span>
+            <span class="project-metric">Swift · iOS</span>
           </div>
-          <h3><a href="https://github.com/jtiet/ai-digest-agent">ai-digest-agent</a></h3>
+          <h3>Find My Car</h3>
           <p>
-            An autonomous news agent built on the Claude Agent SDK. Each run it
-            researches 24 hours of AI news across four beats, picks the stories
-            that matter, writes a spoken-word script, synthesizes it to audio,
-            and delivers a voice message to Telegram. The steps aren't a
-            hard-coded pipeline — the model plans the run against custom tools.
+            An iOS app that answers &ldquo;where did I park?&rdquo; with no input at
+            parking time. Detection is layered and fully on-device: a motion
+            engine that scales GPS precision to driving speed to protect
+            battery, loss of the car&rsquo;s audio route read as ignition-off, and
+            a CarPlay Shortcuts bridge. No server and no accounts.
           </p>
           <ul class="tag-list">
-            <li>TypeScript</li><li>Claude Agent SDK</li><li>MCP tools</li><li>Telegram API</li>
+            <li>Swift</li><li>Core Location</li><li>Core Motion</li><li>WidgetKit</li><li>Siri</li>
           </ul>
         </article>
         <article class="project-card reveal">
           <div class="project-top">
             <span class="project-folder" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.7-.9L9.2 3.9A2 2 0 0 0 7.5 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"/></svg>
             </span>
             <span class="project-metric">JavaScript</span>
           </div>
-          <h3><a href="https://github.com/jtiet/ot-sample-app">ot-sample-app</a></h3>
+          <h3>Lazy Outfitter</h3>
           <p>
-            A mock-interview video app built on the OpenTok (now Vonage Video)
-            WebRTC APIs, with a small Express server handling session setup and
-            static delivery.
+            A virtual try-on app: send a person photo and a garment image, get
+            back a generated result. React and Vite on the client, an Express
+            API behind it, with two interchangeable generation backends and
+            optional scraping to pull garments straight from a product URL.
           </p>
           <ul class="tag-list">
-            <li>JavaScript</li><li>Express.js</li><li>OpenTok</li><li>WebRTC</li>
+            <li>React</li><li>Vite</li><li>Express.js</li><li>Puppeteer</li>
           </ul>
         </article>
         <article class="project-card reveal">
           <div class="project-top">
             <span class="project-folder" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.7-.9L9.2 3.9A2 2 0 0 0 7.5 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"/></svg>
             </span>
-            <span class="project-metric">HTML · CSS · JS</span>
+            <span class="project-metric">TypeScript</span>
           </div>
-          <h3><a href="https://github.com/jtiet/personal-site">personal-site</a></h3>
+          <h3><a href="https://github.com/jtiet/ai-digest-agent">AI Digest Agent</a></h3>
           <p>
-            This site. Hand-written HTML, CSS, and vanilla JavaScript — no
-            framework and no build step — served over HTTPS from GitHub Pages
-            and deployed on every push to master.
+            An autonomous news agent built on the Claude Agent SDK. Each run it
+            researches 24 hours of AI news across four beats, picks the
+            stories that matter, writes a spoken-word script, synthesizes it
+            to audio, and delivers a voice message to Telegram. The steps
+            aren&rsquo;t a hard-coded pipeline &mdash; the model plans each run
+            against a set of custom tools.
           </p>
           <ul class="tag-list">
-            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li>
+            <li>TypeScript</li><li>Claude Agent SDK</li><li>MCP tools</li><li>Telegram API</li>
           </ul>
         </article>
       </div>

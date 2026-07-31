@@ -520,16 +520,6 @@ ul, ol { list-style: none; }
   transform: translateY(-3px);
 }
 
-/* ---------- Footer ---------- */
-.site-footer {
-  padding: 28px 24px;
-  text-align: center;
-  border-top: 1px solid var(--border);
-  color: var(--text-muted);
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-}
-
 /* ---------- Reveal animation ---------- */
 .reveal {
   opacity: 0;
